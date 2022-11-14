@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Gemelos digitales, aplicaciones VR e ingeniería inversa'
