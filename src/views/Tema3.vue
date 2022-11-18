@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema3/img3_1.svg', alt='foto de una mujer tomando alguna bebida y trabajando en el computador en un software de modelado libre')
+          img(src='@/assets/curso/temas/tema3/img3_1.png', alt='foto de una mujer tomando alguna bebida y trabajando en el computador en un software de modelado libre')
       .col-lg-6
         p(data-aos="fade-down") Las opciones de modelado de forma libre se usan, por lo general, para crear un diseño más llamativo y complejo desde uno paramétrico existente al que se le puede aplicar una de las cinco formas libre básicas: caja, esfera de malla cuadrada, cilindro, toroide y esfera.
         p(data-aos="fade-down") El diseño de objetos 3D con alto grado de modelado es bastante dispendioso a comparación de las formas de diseño convencional, por eso, estas herramientas de modelado libre brindan un método alterno que se manipula directamente.  Cabe anotar que existen ayudas de #[em hardware] para este tipo de diseño, como los dispositivos hápticos.  
@@ -47,7 +47,7 @@
     
     separador
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
         h2.my-5 3.1	 Modelado basado en superficies.
     
@@ -308,7 +308,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3_16.svg', alt='')              
           .col-md-8.mb-4.mb-md-0
-            h4 #[em Autodesk 3D Studio Max o 3DMax]
             p Es un programa de diseño de imágenes y gráficos desarrollado por #[em Autodesk Corporation]. Se basa en el desarrollo de #[em plugins] que permiten modificar imágenes y desarrollar objetos tridimensionales a partir de imágenes en dos planos.  Ideal para diseñadores, arquitectos, publicistas y decoradores de interiores. Además de convertir objetos e imágenes en tres dimensiones, el programa cuenta con funciones que permiten agregar volúmenes y texturas a los objetos. También permite configurar el fondo y alrededor de los objetos.
       .py-3.py-md-4(titulo="<em>Lumion</em>")
         .row
@@ -316,7 +315,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3_17.svg', alt='')              
           .col-md-8
-            h4 #[em Lumion]
             p Es un potente programa de renderizado 3D. Su premisa es dejar atrás un proceso de renderizado lento y tedioso. No se limita a la creación de tablas 3D, también permite la elaboración de videos tridimensionales, así como el diseño de todo el proyecto, con pocos o ningún requisito de aprendizaje. El programa es muy intuitivo, por lo que no se requiere un tutorial intensivo para su uso, además ofrece acceso a una biblioteca de imágenes que se pueden modificar libremente para el diseño de objetos.
 
       .py-3.py-md-4(titulo="<em>SketchUp</em>")
@@ -325,14 +323,13 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3_18.svg', alt='') 
           .col-md-8
-            h4 #[em SketchUp]
             p Es un programa para el diseño 3D. Incluye tutoriales que muestran al usuario cómo utilizar el #[em software], además, permite modelar imágenes que van desde vehículos hasta edificios, animales y casi cualquier cosa. Una de las grandes premisas del programa es su facilidad de uso. 
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
+      .col-lg-2.col-sm-1
         figura
           img(src="@/assets/curso/temas/tema3/img3_19.svg")
-      .col-lg-10
+      .col-lg-10.col-sm-11
         .row.justify-content-center.align-items-center.md-5(data-aos="zoom-in-left")
           .col-xl-12
             ul.lista-ul--color.lista-ul
@@ -351,25 +348,25 @@
       .col-lg-12
         p(data-aos="fade-down")  Existen dos tipos principales de representación, la diferencia es la velocidad a la que se calcula y finaliza la imagen dependiendo de la aplicación donde se usará. 
 
-    .row.justify-content-center.align-items-center.mb-5
-      
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img3_20.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Representación 3D en tiempo real
-              p Esta opción se prefiere en juegos y gráficos interactivos debido a la necesidad de calcular muy rápido imágenes a partir de datos 3D. Por lo tanto, habrá un #[em hardware] de gráficos para garantizar un procesamiento rápido de imágenes.
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img3_20.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Representación 3D en tiempo real
+            p.mb-0 Esta opción se prefiere en juegos y gráficos interactivos debido a la necesidad de calcular muy rápido imágenes a partir de datos 3D. Por lo tanto, habrá un #[em hardware] de gráficos para garantizar un procesamiento rápido de imágenes.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img3_21.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Representación sin conexión
-              br
-              p Utilizado cuando no se necesitan velocidades de renderizado altas. El efecto es adecuado para lugares donde la complejidad visual y el foto realismo son muy altos. A diferencia del tiempo real, no hay imprevisibilidad.
-              br
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img3_21.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Representación sin conexión
+            p.mb-0 Utilizado cuando no se necesitan velocidades de renderizado altas. El efecto es adecuado para lugares donde la complejidad visual y el foto realismo son muy altos. A diferencia del tiempo real, no hay imprevisibilidad.
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -378,7 +375,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        ImagenInfograficaB.color-primario.mb-5
+        ImagenInfograficaB.color-primario.mb-5(data-aos="zoom-in-left")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema3/img3_22.svg', alt='')

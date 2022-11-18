@@ -33,8 +33,9 @@
         
       .col-lg-5
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2.
-          span La tecnología h+aptica, el futuro de la robótica  
+          h5 Figura 2
+          br
+          span #[i La tecnología haptica, el futuro de la robótica]  
               
         figure
           img(src='@/assets/curso/temas/tema1/img2.svg', alt='Foto de mujer con gafas de realidad virtual')
@@ -60,7 +61,7 @@
         
       .col-lg-5        
         figure
-          img(src='@/assets/curso/temas/tema1/img4.svg', alt='Foto de un doctor, revisando una imagen en olograma de los pulmones')
+          img(src='@/assets/curso/temas/tema1/img4.png', alt='Foto de un doctor, revisando una imagen en olograma de los pulmones')
 
     .tarjeta.tarjeta--gris.p-4
       LineaTiempoC.color-acento-botones(text-small)
