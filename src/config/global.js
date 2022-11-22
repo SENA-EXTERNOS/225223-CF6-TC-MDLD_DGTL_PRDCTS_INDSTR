@@ -61,7 +61,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>Software<em> para modelo libre',
+        titulo: '<em>Software</em> para modelo libre',
         desarrolloContenidos: true,
         subMenu: [
           {
