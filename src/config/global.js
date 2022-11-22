@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Gemelos digitales, aplicaciones VR e ingeniería inversa',
     descripcionCurso:
-      'Los gemelos digitales son copias virtuales de un objeto o un proceso creadas con el fin de analizar su rendimiento a través de la simulación de su comportamiento, gracias a lo cual es posible mejorar los procesos de diseño y predecir posibles fallos o mantenimientos. Este concepto va acompañado del modelado 3D, que es la base fundamental de los gemelos...',
+      'Los gemelos digitales son copias virtuales de un objeto o un proceso creadas con el fin de analizar su rendimiento a través de la simulación de su comportamiento, gracias a lo cual es posible mejorar los procesos de diseño y predecir posibles fallos o mantenimientos. Este concepto va acompañado del modelado 3D, que es la base fundamental de los gemelos digitales y de algunas aplicaciones como las de realidad aumentada, donde el usuario puede interactuar con un modelo 3D en diferentes grados de inmersión',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -132,22 +132,21 @@ export default {
       tema: 'Manual uso <em>Solid Works</em>',
       referencia: 'Dasault Systems, (2022), <em>Introducing solidworks</em>',
       tipo: 'Manual',
-      descarga: 'https://files.solidworks.com/pdf/introsw.pdf ',
+      link: 'https://files.solidworks.com/pdf/introsw.pdf ',
     },
     {
       tema: 'Manual de uso UNITY para VR',
       referencia:
         'UNITY. (2021). <em>Manual: Getting started with VR development in Unity</em>. Unity',
       tipo: 'Manual',
-      descarga: 'https://docs.unity3d.com/Manual/VROverview.html',
+      link: 'https://docs.unity3d.com/Manual/VROverview.html',
     },
     {
       tema: 'Manual <em>Geomagic Free Form</em> ',
       referencia:
         '3D Systems. (2021). <em>Download Geomagic Freeform Software Documents</em>. 3D Systems.',
       tipo: 'Manual',
-      descarga:
-        'https://www.3dsystems.com/software/geomagic-freeform/documents ',
+      link: 'https://www.3dsystems.com/software/geomagic-freeform/documents ',
     },
   ],
   glosario: [

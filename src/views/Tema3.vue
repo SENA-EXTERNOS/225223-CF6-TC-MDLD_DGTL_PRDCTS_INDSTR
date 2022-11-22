@@ -42,7 +42,7 @@
 
       .tarjeta.p-3(x="90%" y="98%" numero="5")(style="background-color:#D2E1F1;color:#12263F")
         .h5.mb-2 Esfera de malla cuadrada de forma libre
-        p deformar el objeto 3d de base (esfera), halando los puntos de la malla que se quieren cambiar.
+        p Deformar el objeto 3d de base (esfera), halando los puntos de la malla que se quieren cambiar.
         p Información extraída de (Autodesk, 2020).
     
     separador
@@ -282,7 +282,7 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema3/img3_14.svg", alt="alt").img400.m-auto
         .col-lg-8
-          AcordionA.mb-2.color-acento-contenido(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          AcordionA.mb-2.color-acento-contenido(tipo="a" clase-tarjeta="tarjeta ca-ab")
             .row.justify-content-center.mb-4(titulo="En principio")
               .col-10
                 p.mb-0 En principio, el renderizado 3D es similar a la fotografía. Por ejemplo, un programa de renderizado 3D compone una imagen apuntando la cámara a un objeto, por lo que la iluminación digital adquiere vital importancia en la creación de representaciones detalladas y realistas.  A lo largo del tiempo se han desarrollado varias técnicas de renderizado, sin embargo, el objetivo de este proceso en 3D es capturar una imagen basada en cómo la luz golpea un objeto, como en la vida real.
@@ -291,7 +291,7 @@
                 p.mb-0 Uno de los primeros métodos de renderizado fue la rasterización, que trataba un modelo como una malla poligonal. Estos polígonos se componen de vértices que contienen información como la posición, la textura y el color, los cuales luego de ser proyectados en un plano perpendicular a la perspectiva (es decir, la cámara), actúan como límites, por lo que todos los demás píxeles se rellenan con el color apropiado. Imagine dibujar una imagen creando primero un contorno para cada color, de eso se trata la representación de trama.
             .row.justify-content-center.mb-4(titulo="La rasterización")
               .col-10
-                p.mb-0 La rasterización es una forma rápida de renderizar. Esta técnica todavía se usa ampliamente, especialmente para la representación 3D en tiempo real (por ejemplo, en juegos de computador, simulaciones e interfaces gráficas interactivas). Más recientemente, el proceso de renderizado se ha mejorado con una mayor resolución y antialiasing, que permite suavizar y difuminar los bordes de los objetos junto con los píxeles circundantes.
+                p.mb-0 La rasterización es una forma rápida de renderizar. Esta técnica todavía se usa ampliamente, especialmente para la representación 3D en tiempo real (por ejemplo, en juegos de computador, simulaciones e interfaces gráficas interactivas). Más recientemente, el proceso de renderizado se ha mejorado con una mayor resolución y #[em antialiasing], que permite suavizar y difuminar los bordes de los objetos junto con los píxeles circundantes.
     
     .row.justify-content-center.align-items-center.mb-5      
       .col-lg-7
@@ -375,7 +375,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        ImagenInfograficaB.color-primario.mb-5(data-aos="zoom-in-left")
+        ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema3/img3_22.svg', alt='')
@@ -397,14 +397,14 @@
               .col-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema3/img3_24.svg', alt='')
-            p #[b Línea de escaneo]: es uno de los métodos más antiguos. Fusiona algoritmos para determinar superficies visibles con aquellos que determinan sombras informadas. Estos algoritmos tienen precisión de imagen, es decir que, para cada línea de escaneo, determinan el lapso (intervalo) de píxeles visibles, a diferencia del búfer z utiliza una línea de exploración a la vez.
+            p Es uno de los métodos más antiguos. Fusiona algoritmos para determinar superficies visibles con aquellos que determinan sombras informadas. Estos algoritmos tienen precisión de imagen, es decir que, para cada línea de escaneo, determinan el lapso (intervalo) de píxeles visibles, a diferencia del búfer z utiliza una línea de exploración a la vez.
 
           div(x="43.8%" y="50%" tooltip="Emisión de rayos" numero="")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema3/img3_25.svg', alt='')
-            p Emisión de rayos: (BibLus, 2019) es un mecanismo de precisión de imagen que detecta superficies visibles. Todo el proceso se refiere a un centro de proyección y una pantalla colocada arbitrariamente, considerada una cuadrícula regular. Estos elementos corresponden a las dimensiones en píxeles de la resolución deseada. 
+            p (BibLus, 2019) es un mecanismo de precisión de imagen que detecta superficies visibles. Todo el proceso se refiere a un centro de proyección y una pantalla colocada arbitrariamente, considerada una cuadrícula regular. Estos elementos corresponden a las dimensiones en píxeles de la resolución deseada. 
             p Se traza un rayo imaginario por celda de la misma ventana desde el centro de visualización hasta los objetos presentes en la escena.  La idea básica del #[em raycasting] es dividir los rayos del ojo, uno por #[em píxel], para encontrar el objeto más cercano que obstruye el camino (es necesario pensar en una imagen de cuadrícula donde cada cuadrado corresponde a un #[em píxel]) en comparación con el antiguo algoritmo de línea de exploración. 
             p Una ventaja del #[em raycasting] es su manejo simple de superficies sólidas o no planas como conos y esferas. Si la luz golpea una superficie, el #[em raycasting] puede diseñarla. También se pueden crear objetos complejos utilizando técnicas de modelado de sólidos.
 
@@ -415,7 +415,7 @@
               .col-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema3/img3_26.svg', alt='')
-            p #[b Trazado de rayos]: (BibLus, 2019) Esta técnica proviene de la emisión de rayos, pero aplica un modelo de iluminación especial que tiene en cuenta la reflexión y la refracción de la luz, lo que permite efectos fotorrealistas sorprendentes. 
+            p (BibLus, 2019) Esta técnica proviene de la emisión de rayos, pero aplica un modelo de iluminación especial que tiene en cuenta la reflexión y la refracción de la luz, lo que permite efectos fotorrealistas sorprendentes. 
             p Se basa en la premisa de que de todos los rayos que salen del resorte, solo aquellos que llegan al observador después de tocar el objeto tendrán un efecto en la imagen. La luz puede llegar al espectador directamente o mediante la interacción con otras superficies. 
             p Naturalmente, es imposible simplemente seguir el camino de cualquier luz, sin embargo, si invertimos la trayectoria del rayo y solo consideramos los rayos que parten de la posición del observador, podemos determinar qué rayos contribuyen a la imagen. Esta es la idea básica del trazado de rayos, que simula el viaje completo de la radiación de luz hasta el observador.  
             p La popularidad del trazado de rayos se basa en la simulación realista de la luz en comparación con otros modelos de renderizado, como el de líneas de exploración o el #[em raycasting]. Los efectos como los reflejos y las sombras son difíciles de simular con otros métodos y son una consecuencia natural de los algoritmos. Una implementación relativamente simple puede generar resultados impresionantes, a menudo, el trazado de rayos representa un punto de entrada para la investigación de programación de gráficos.
@@ -425,7 +425,7 @@
               .col-lg-2
                 figure
                   img(src='@/assets/curso/temas/tema3/img3_27.svg', alt='')
-            p #[em Resplandor]: Este método de precisión de imagen proporciona mayores ventajas para la calidad realista de la misma, ya que tiene en cuenta la física de interreflexión entre objetos. De hecho, cuando una superficie tiene un componente de luz reflejada, no solo aparece en nuestra imagen, sino que también ilumina las superficies cercanas, (BibLus, 2019). 
+            p Este método de precisión de imagen proporciona mayores ventajas para la calidad realista de la misma, ya que tiene en cuenta la física de interreflexión entre objetos. De hecho, cuando una superficie tiene un componente de luz reflejada, no solo aparece en nuestra imagen, sino que también ilumina las superficies cercanas, (BibLus, 2019). 
             p La luz radiante transporta datos sobre el objeto que la generó, especialmente el color. Como resultado, las sombras son menos oscuras y pueden percibir el color de los objetos cercanos bien iluminados, un fenómeno comúnmente conocido como ‘corrección de color’. 
             p El algoritmo de radiosidad, separa y descompone la superficie en componentes más pequeños y luego distribuye la energía de la luz directa; luego de esto, calcula la difusión, transmisión y reflexión bajo el supuesto de que la superficie refleja la luz de la misma manera que la energía. Asimismo, calcula la superficie que más energía refleja y la redistribuye.
 

@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar-soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Arrastrar y soltar
-        p.mb-4 #[b Objetivo] Apreciado aprendiz, a continuación, encontrará unos enunciados relacionados con la experiencia de aprendizaje del presente componente. Seleccione el concepto correcto de acuerdo con lo aprendido.  
+          h2 Gemelos digitales, aplicaciones VR e ingeniería inversa
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará unos enunciados relacionados con la experiencia de aprendizaje del presente componente. Seleccione el concepto correcto de acuerdo con lo aprendido.  
         p.mb-4 #[b ¡Adelante!]
 
         .tarjeta.actividad.p-3

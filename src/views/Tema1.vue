@@ -29,7 +29,7 @@
         p(data-aos="fade-down") Para entender cómo funciona la tecnología háptica, es crucial comprender cómo funciona el tacto. El cuerpo humano tiene piel y receptores cinestésicos asociados con esta sensación. Para desarrollar esta tecnología, se deben estimular los receptores de la piel, los cuales se especializan en recibir tres tipos diferentes de percepción: presión, dolor y temperatura. Los científicos se han centrado en estimular uno u otro, de esta forma, el dispositivo háptico activa mecanorreceptores que detectan la presión: corpúsculos de Messiner, corpúsculos de Pacini, discos de Markel y terminales de Ruffini, (NANOVA, n.d).
 
         .cajon.color-acento-botones.p-4(data-aos="fade-down")          
-          p El chaleco ‘Aura Interactor’ es un dispositivo de retroalimentación de fuerza desarrollado en 1994 que monitorea las señales de audio y las convierte en ondas de sonido de baja vibración que pueden indicar movimientos como puñetazos o patadas.
+          p El chaleco ‘#[em Aura Interactor]’ es un dispositivo de retroalimentación de fuerza desarrollado en 1994 que monitorea las señales de audio y las convierte en ondas de sonido de baja vibración que pueden indicar movimientos como puñetazos o patadas.
         
       .col-lg-5
         .titulo-sexto.color-acento-contenido.mb-3
@@ -55,7 +55,7 @@
             h3 Tecnología háptica en otros campos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-down") La medicina, la investigación y la ingeniería pueden beneficiarse y, por ejemplo, los científicos del Instituto Tecnológico de Massachusetts (MIT), crearon un guante que puede informar la presencia de sustancias químicas a las que se está expuesto, (Futuro Electronico, n.d.) Como resultado, se puede evitar el contacto de las manos con objetos contaminados con bacterias, lo cual es útil en tareas de limpieza en quirófanos o derrames químicos.  Por su parte, el Stanford Medical Collaborative Haptics and Robotics Laboratory está desarrollando un nuevo dispositivo táctil que además de sintetizar la textura y la forma de los objetos, reacciona a las acciones del usuario, proporcionando una sensación de peso o deformación. Las aplicaciones de este mecanismo se centrarán en la cirugía robótica y se espera que se extienda a otras industrias en el futuro.
+        p(data-aos="fade-down") La medicina, la investigación y la ingeniería pueden beneficiarse y, por ejemplo, los científicos del Instituto Tecnológico de Massachusetts (MIT), crearon un guante que puede informar la presencia de sustancias químicas a las que se está expuesto, (Futuro Electronico, n.d.) Como resultado, se puede evitar el contacto de las manos con objetos contaminados con bacterias, lo cual es útil en tareas de limpieza en quirófanos o derrames químicos.  Por su parte, el #[em Stanford Medical Collaborative Haptics and Robotics Laboratory] está desarrollando un nuevo dispositivo táctil que además de sintetizar la textura y la forma de los objetos, reacciona a las acciones del usuario, proporcionando una sensación de peso o deformación. Las aplicaciones de este mecanismo se centrarán en la cirugía robótica y se espera que se extienda a otras industrias en el futuro.
         .cajon.color-acento-botones.p-4(data-aos="fade-down")          
           p Existen varios tipos de dispositivos hápticos, entre los que encontramos lápices, guantes e incluso trajes completos, cada uno con diferentes usos.
         

@@ -4,8 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     p En esta gráfica podrá encontrar, tecnologías y herramientas que permiten interactuar con el mundo 3D de una forma fluida, ya sea para crear contenido 3D con formas complejas, para visualizar e interactuar con el modelo o contenido 3D ya desarrollado, o para manipular y ser actor activo de una experiencia 3D o un modelo 3D.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
