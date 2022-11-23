@@ -53,7 +53,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img3_3.svg')})`}"
           )
@@ -301,15 +301,15 @@
         figure
           img(src='@/assets/curso/temas/tema3/img3_15.svg', alt='')  
     
-    TabsC.color-primario.mb-5
-      .py-3.py-md-4(titulo="<em>Autodesk 3D Studio Max o 3DMax</em>")
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4(titulo="<em><b>Autodesk 3D Studio Max o 3DMax</b></em>")
         .row        
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/img3_16.svg', alt='')              
           .col-md-8.mb-4.mb-md-0
             p Es un programa de diseño de imágenes y gráficos desarrollado por #[em Autodesk Corporation]. Se basa en el desarrollo de #[em plugins] que permiten modificar imágenes y desarrollar objetos tridimensionales a partir de imágenes en dos planos.  Ideal para diseñadores, arquitectos, publicistas y decoradores de interiores. Además de convertir objetos e imágenes en tres dimensiones, el programa cuenta con funciones que permiten agregar volúmenes y texturas a los objetos. También permite configurar el fondo y alrededor de los objetos.
-      .py-3.py-md-4(titulo="<em>Lumion</em>")
+      .py-3.py-md-4(titulo="<em><b>Lumion</b></em>")
         .row
           .col-md-4.mb-4.mb-md-0
             figure
@@ -317,7 +317,7 @@
           .col-md-8
             p Es un potente programa de renderizado 3D. Su premisa es dejar atrás un proceso de renderizado lento y tedioso. No se limita a la creación de tablas 3D, también permite la elaboración de videos tridimensionales, así como el diseño de todo el proyecto, con pocos o ningún requisito de aprendizaje. El programa es muy intuitivo, por lo que no se requiere un tutorial intensivo para su uso, además ofrece acceso a una biblioteca de imágenes que se pueden modificar libremente para el diseño de objetos.
 
-      .py-3.py-md-4(titulo="<em>SketchUp</em>")
+      .py-3.py-md-4(titulo="<em><b>SketchUp</b></em>")
         .row
           .col-md-4.mb-4.mb-md-0
             figure
@@ -386,7 +386,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img3_23.svg', alt='')
             
-            p Búfer Z: (BibLus, 2019) es uno de los algoritmos más simples para determinar superficies visibles. Utiliza dos estructuras de datos, un z-buffer (área de memoria que contiene la coordenada z más cercana al espectador para cada píxel) y un #[em framebuffer] (que contiene datos de color relacionados con los píxeles contenidos en el z-buffer). 
+            p (BibLus, 2019) es uno de los algoritmos más simples para determinar superficies visibles. Utiliza dos estructuras de datos, un z-buffer (área de memoria que contiene la coordenada z más cercana al espectador para cada píxel) y un #[em framebuffer] (que contiene datos de color relacionados con los píxeles contenidos en el z-buffer). 
             p Para cada píxel, se memoriza el valor Z máximo (suponiendo que el eje z va desde la pantalla hasta los ojos del espectador), y en cada paso, solo si la coordenada Z del punto de control es mayor que el valor del búfer z actual. La técnica se aplica un polígono a la vez, al escanear un polígono, la información sobre otros no está disponible.
             p Búfer Z: (BibLus, 2019) #[em Z-buffers] y #[em framebuffers] se utilizan para calcular las superficies visibles de la manera más básica. Los #[em z-buffers] almacenan la coordenada Z más cercana a un #[em píxel] dado, mientras que los #[em framebuffers] almacenan información de color para cada píxel contenido en el z-buffer.
             p El valor actual de la variable Z se compara con la referencia en esa coordenada Z del punto de control, cuando se calcula el valor del siguiente paso, se asigna el valor de Z más cercano. La técnica aplica un polígono a la vez, si se escanea un polígono, la información sobre otros no queda disponible.
