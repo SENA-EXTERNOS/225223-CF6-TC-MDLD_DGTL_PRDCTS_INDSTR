@@ -302,14 +302,14 @@
           img(src='@/assets/curso/temas/tema3/img3_15.svg', alt='')  
     
     TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="<em><b>Autodesk 3D Studio Max o 3DMax</b></em>")
+      .py-3.py-md-4(titulo="<em>Autodesk 3D Studio Max o 3DMax</em>")
         .row        
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/img3_16.svg', alt='')              
           .col-md-8.mb-4.mb-md-0
             p Es un programa de diseño de imágenes y gráficos desarrollado por #[em Autodesk Corporation]. Se basa en el desarrollo de #[em plugins] que permiten modificar imágenes y desarrollar objetos tridimensionales a partir de imágenes en dos planos.  Ideal para diseñadores, arquitectos, publicistas y decoradores de interiores. Además de convertir objetos e imágenes en tres dimensiones, el programa cuenta con funciones que permiten agregar volúmenes y texturas a los objetos. También permite configurar el fondo y alrededor de los objetos.
-      .py-3.py-md-4(titulo="<em><b>Lumion</b></em>")
+      .py-3.py-md-4(titulo="<em>Lumion</em>")
         .row
           .col-md-4.mb-4.mb-md-0
             figure
@@ -317,7 +317,7 @@
           .col-md-8
             p Es un potente programa de renderizado 3D. Su premisa es dejar atrás un proceso de renderizado lento y tedioso. No se limita a la creación de tablas 3D, también permite la elaboración de videos tridimensionales, así como el diseño de todo el proyecto, con pocos o ningún requisito de aprendizaje. El programa es muy intuitivo, por lo que no se requiere un tutorial intensivo para su uso, además ofrece acceso a una biblioteca de imágenes que se pueden modificar libremente para el diseño de objetos.
 
-      .py-3.py-md-4(titulo="<em><b>SketchUp</b></em>")
+      .py-3.py-md-4(titulo="<em>SketchUp</em>")
         .row
           .col-md-4.mb-4.mb-md-0
             figure
