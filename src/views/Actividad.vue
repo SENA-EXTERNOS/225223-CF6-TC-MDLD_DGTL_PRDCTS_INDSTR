@@ -11,7 +11,8 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Gemelos digitales, aplicaciones VR e ingeniería inversa
-        p.mb-4 Apreciado aprendiz, a continuación, encontrará unos enunciados relacionados con la experiencia de aprendizaje del presente componente. Seleccione el concepto correcto de acuerdo con lo aprendido.  
+        p Apreciado aprendiz, el objetivo de esta actividad es asociar conceptos relacionados con gemelos digitales y realidad virtual junto con su definición correspondiente, los cuales fueron vistos en este componente.
+        p Arrastre la palabra que considere correcta como respuesta a la descripción dada, de esta forma puede repasar los temas que se deben tener en cuenta para la aplicación de realidad virtual y lo relacionado a gemelos digitales.
         p.mb-4 #[b ¡Adelante!]
 
         .tarjeta.actividad.p-3

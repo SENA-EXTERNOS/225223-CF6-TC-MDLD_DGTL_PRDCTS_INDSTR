@@ -7,6 +7,7 @@
         span 2
       h1 Vinculación a la VR
     
+    p Los progresos relacionados con la tecnología 3D han permitido tener un gran avance en el desarrollo de la realidad virtual y en la manera en cómo percibimos algunos objetos, piezas y productos. La realización del mundo en el ámbito de la realidad virtual está generando un desarrollo que, tanto a nivel de mercado e industria, está revolucionando la creación de los objetos y las experiencias en torno a ellos. Observe en el siguiente video una introducción al ámbito de la realidad virtual.
     .row.justify-content-center.align-items-center.md-5   
       .col-lg-12(data-aos="fade-left")     
         figure

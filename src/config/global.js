@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Gemelos digitales, aplicaciones VR e ingeniería inversa',
     descripcionCurso:
-      'Los gemelos digitales son copias virtuales de un objeto o un proceso creadas con el fin de analizar su rendimiento a través de la simulación de su comportamiento, gracias a lo cual es posible mejorar los procesos de diseño y predecir posibles fallos o mantenimientos. Este concepto va acompañado del modelado 3D, que es la base fundamental de los gemelos digitales y de algunas aplicaciones como las de realidad aumentada, donde el usuario puede interactuar con un modelo 3D en diferentes grados de inmersión',
+      'Los gemelos digitales son copias virtuales de un objeto o un proceso creadas con el fin de analizar su rendimiento a través de la simulación de su comportamiento, gracias a lo cual es posible mejorar los procesos de diseño y predecir posibles fallos o mantenimientos. Este concepto va acompañado del modelado 3D, que es la base fundamental de los gemelos digitales y de algunas aplicaciones como las de realidad aumentada, donde el usuario puede interactuar con un modelo 3D en diferentes grados de inmersión.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

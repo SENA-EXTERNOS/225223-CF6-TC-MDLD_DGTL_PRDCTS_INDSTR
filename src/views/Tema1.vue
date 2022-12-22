@@ -28,8 +28,12 @@
         p(data-aos="fade-down") La háptica es la ciencia que se encarga del estudio del sentido del tacto. Mediante el uso de dispositivos hápticos se puede percibir la presencia de objetos tridimensionales en un ambiente virtual.  Asimismo, estos mecanismos crean una retroalimentación de fuerzas que genera sensaciones en los músculos y tendones del usuario como respuesta a la interacción con el sistema informático, (Redacción Futuro Electrónico, n.d.).
         p(data-aos="fade-down") Para entender cómo funciona la tecnología háptica, es crucial comprender cómo funciona el tacto. El cuerpo humano tiene piel y receptores cinestésicos asociados con esta sensación. Para desarrollar esta tecnología, se deben estimular los receptores de la piel, los cuales se especializan en recibir tres tipos diferentes de percepción: presión, dolor y temperatura. Los científicos se han centrado en estimular uno u otro, de esta forma, el dispositivo háptico activa mecanorreceptores que detectan la presión: corpúsculos de Messiner, corpúsculos de Pacini, discos de Markel y terminales de Ruffini, (NANOVA, n.d).
 
-        .cajon.color-acento-botones.p-4(data-aos="fade-down")          
-          p El chaleco ‘#[em Aura Interactor]’ es un dispositivo de retroalimentación de fuerza desarrollado en 1994 que monitorea las señales de audio y las convierte en ondas de sonido de baja vibración que pueden indicar movimientos como puñetazos o patadas.
+        .cajon.color-acento-botones.p-4(data-aos="fade-down")
+          h4 Algunos antecedentes        
+          p.mb-0 Entre los descubrimientos más importantes sobre la materia está el chaleco 
+            em Aura Interactor
+            | , el cual es un dispositivo de retroalimentación de fuerza desarrollado en 1994 que monitorea las señales de audio y las convierte en ondas de sonido de baja vibración que pueden indicar movimientos como puñetazos o patadas. 
+
         
       .col-lg-5
         .titulo-sexto.color-acento-contenido.mb-3
@@ -55,7 +59,9 @@
             h3 Tecnología háptica en otros campos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-down") La medicina, la investigación y la ingeniería pueden beneficiarse y, por ejemplo, los científicos del Instituto Tecnológico de Massachusetts (MIT), crearon un guante que puede informar la presencia de sustancias químicas a las que se está expuesto, (Futuro Electronico, n.d.) Como resultado, se puede evitar el contacto de las manos con objetos contaminados con bacterias, lo cual es útil en tareas de limpieza en quirófanos o derrames químicos.  Por su parte, el #[em Stanford Medical Collaborative Haptics and Robotics Laboratory] está desarrollando un nuevo dispositivo táctil que además de sintetizar la textura y la forma de los objetos, reacciona a las acciones del usuario, proporcionando una sensación de peso o deformación. Las aplicaciones de este mecanismo se centrarán en la cirugía robótica y se espera que se extienda a otras industrias en el futuro.
+        p(data-aos="fade-down") Las áreas médicas y de investigación, al igual que la ingeniería también pueden beneficiarse de la tecnología háptica. Los científicos del Instituto Tecnológico de Massachusetts (MIT), crearon un guante que puede informar sobre la presencia de sustancias químicas (Futuro Electronico, n.d.) y, por ende, se puede evitar el contacto de las manos con objetos contaminados con bacterias, lo cual es útil en tareas de limpieza en quirófanos o derrames químicos. Por su parte, el 
+          em Stanford Medical Collaborative Haptics and Robotics Laboratory 
+          | está desarrollando un nuevo dispositivo táctil, que además de sintetizar la textura y la forma de los objetos, reacciona a las acciones del usuario, proporcionando una sensación de peso o deformación. Las aplicaciones de este mecanismo se centrarán en la cirugía robótica y se espera que se extienda a otras industrias en el futuro.
         .cajon.color-acento-botones.p-4(data-aos="fade-down")          
           p Existen varios tipos de dispositivos hápticos, entre los que encontramos lápices, guantes e incluso trajes completos, cada uno con diferentes usos.
         
@@ -67,6 +73,7 @@
       LineaTiempoC.color-acento-botones(text-small)
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
+            h3 Dispositivos hápticos 
             p Los dispositivos hápticos producen cambios y estímulos en el sentido del tacto. Para crear este sentimiento, se pueden utilizar diferentes sistemas que incluyen pines mecánicos activados por solenoides, cristales piezoeléctricos, vibraciones generadas magnéticamente, interferencias electrostáticas, ondas ultrasónicas, presión de sistemas neumáticos, etc. En general, se puede distinguir entre retroalimentación háptica y retroalimentación de fuerza, según el dispositivo.
         
           .col-md-6

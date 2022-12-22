@@ -62,15 +62,17 @@
 
     .tarjeta.tarjeta--azul.p-4.mb-5(style="background-color: #e8e8e8")
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center.mb-5  
+        .row.justify-content-center.align-items-center 
           .col-md-6.mb-4.mb-md-0
+            h4 Superficies
             p La ventaja de utilizar superficies es que, al no tener espesor, solo hay que preocuparse por la forma exterior de la pieza, no por su interior o volumen, lo cual facilita el trabajo. 
 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3_4.svg', alt='')
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
+            h4 Modelado de superficies
             p Es importante reconocer la diferencia entre el modelado de sólidos y el modelado de superficies; y tener una visión clara de cuándo usar cada uno de estos métodos.
             p En el modelado de superficies, las curvas controlan el modelo, mientras que en el de sólidos lo hacen las caras. Comprender la secuencia de las operaciones de modelado de superficies es importante para crearlas y editarlas.  
 
@@ -79,71 +81,62 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3_5.svg', alt='')
         
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             p Procedimiento general para crear superficies:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Crear sólidos con superficies periféricas.
+                p.mb-0.text-small Crear sólidos con superficies periféricas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Crear sólidos con superficies periféricas.
+                p.mb-0.text-small Crear sólidos con superficies periféricas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Utilizar superficies como elementos de corte para sólidos u otras superficies.
+                p.mb-0.text-small Utilizar superficies como elementos de corte para sólidos u otras superficies.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Construir nuevas superficies a partir de otras creadas previamente.
+                p.mb-0.text-small Construir nuevas superficies a partir de otras creadas previamente.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Desarrollar curvas 3D usando geometría 2D.
+                p.mb-0.text-small Desarrollar curvas 3D usando geometría 2D.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Desarrollar superficies usando curvas 3D.
+                p.mb-0.text-small Desarrollar superficies usando curvas 3D.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Agregar funciones apropiadas basadas en sólidos.
+                p.mb-0.text-small Agregar funciones apropiadas basadas en sólidos.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Ajustar.
+                p.mb-0.text-small Ajustar.
 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3_6.svg', alt='')
         
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
+            h4 Superficies sólidas
             p En algunos casos, puede ser difícil distinguir cuándo se debe usar una superficie, por ello, es importante distinguir las ventajas y desventajas del uso de estas herramientas.
             p Una de las ventajas de los sólidos es su forma prismática, se puede crear con una simple extrusión o rotación, funciones que dan como resultado múltiples productos a partir de formas geométricas simples y, por lo tanto, mediante operaciones básicas. Para poder utilizar entidades se deben cumplir ciertos requisitos:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Los límites entre caras deben ser completamente uniformes sin ninguna separación.
+                p.mb-0.text-small Los límites entre caras deben ser completamente uniformes sin ninguna separación.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Una entidad consiste en una unidad.
+                p.mb-0.text-small Una entidad consiste en una unidad.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Todas las caras normales apuntan en la misma dirección (distinguir entre interior y exterior).
+                p.mb-0.text-small Todas las caras normales apuntan en la misma dirección (distinguir entre interior y exterior).
             
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3_7.svg', alt='')
         
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
+            h4 Ventajas de una superficie
             p Por otro lado, la principal ventaja de las superficies es a la vez su principal debilidad: no contienen espesor, es decir que el trabajo debe centrarse en la forma exterior y no en el volumen del bloque.
             p Se pueden crear formas y volúmenes pieza por pieza o cara a cara, lo que permite un control extremo sobre la entidad terminada, la desventaja del proceso cara a cara es que es muy lento y engorroso, pero con él se puede lograr cualquier forma deseada.
             p Usar superficies para generar operaciones sólidas es un recurso utilizado cuando se trata de obtener formas complejas. Por ejemplo, las herramientas para trabajar con superficies que se pueden encontrar en la barra de herramientas de #[em Solidworks].
@@ -151,109 +144,91 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3_8.svg', alt='')
         
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             p Las superficies se pueden utilizar de diferentes maneras:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Seleccionar aristas y vértices para usar como curvas guía y rutas de barrido.
+                p.mb-0.text-small Seleccionar aristas y vértices para usar como curvas guía y rutas de barrido.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Utilizarlas en ciertas operaciones sólidas como el corte.
+                p.mb-0.text-small Utilizarlas en ciertas operaciones sólidas como el corte.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Crear sólidos a partir de diferentes modelos y superficies cosidas para formar un volumen cerrado.
+                p.mb-0.text-small Crear sólidos a partir de diferentes modelos y superficies cosidas para formar un volumen cerrado.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Sustituir las caras de algunos sólidos por superficies.
+                p.mb-0.text-small Sustituir las caras de algunos sólidos por superficies.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3_9.svg', alt='')
         
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-2.mb-md-0
+            h4 Conjunto de superficies 
             p Los conjuntos de superficies son geometrías que no tienen espesor y se conectan entre sí a través de la herramienta #[em Knit Surface], en el caso de la herramienta #[em Solidworks], formando así una sola pieza que luego se puede convertir en un sólido.
             p Un conjunto de superficies significa la unión de varias de ellas para moldear diversas formas:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Un solo lado.
+                p.mb-0.text-small Un solo lado.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Multifase. 
+                p.mb-0.text-small Multifase. 
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Superficies cosidas.
+                p.mb-0.text-small Superficies cosidas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Superficie redonda.
+                p.mb-0.text-small Superficie redonda.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Superficies recortadas y extendidas.
+                p.mb-0.text-small Superficies recortadas y extendidas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Superficies importadas.
+                p.mb-0.text-small Superficies importadas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Superficies planas y medianas.
+                p.mb-0.text-small Superficies planas y medianas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p Superficies extruidas, rotadas, recubiertas o creadas por cualquier otro tipo de operación.
+                p.mb-0.text-small Superficies extruidas, rotadas, recubiertas o creadas por cualquier otro tipo de operación.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3_10.svg', alt='')
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-2.mb-md-0
             p El modelado a través de superficies se reduce a operaciones muy básicas que pueden dominarse lo suficiente para obtener resultados. Algunas consideraciones a la hora de trabajar con modelado superficial:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Pegado de superficies:] al unir superficies pueden surgir ciertas complicaciones, especialmente a la hora de mantener su continuidad para que no exista separación ni diferencia entre ellas. El manejo se complica cuando se trata de unir un conjunto de más de 2 superficies.
+                p.mb-0.text-small #[b Pegado de superficies:] al unir superficies pueden surgir ciertas complicaciones, especialmente a la hora de mantener su continuidad para que no exista separación ni diferencia entre ellas. El manejo se complica cuando se trata de unir un conjunto de más de 2 superficies.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Métodos de tratamiento de superficies:] existen dos métodos básicos de tratamiento de superficies, utilizando secciones verticales, mediante 2 o 3 vistas o croquis del objeto, o a través de una serie de secciones paralelas. Decidir sobre una opción u otra hace que el trabajo sea más fácil o difícil.
+                p.mb-0.text-small #[b Métodos de tratamiento de superficies:] existen dos métodos básicos de tratamiento de superficies, utilizando secciones verticales, mediante 2 o 3 vistas o croquis del objeto, o a través de una serie de secciones paralelas. Decidir sobre una opción u otra hace que el trabajo sea más fácil o difícil.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Objetos cóncavos/huecos:] estos son objetos atípicos que generalmente solo están disponibles con tratamientos superficiales, por lo que a veces su geometría puede ser compleja y acarrean ciertos problemas.
+                p.mb-0.text-small #[b Objetos cóncavos/huecos:] estos son objetos atípicos que generalmente solo están disponibles con tratamientos superficiales, por lo que a veces su geometría puede ser compleja y acarrean ciertos problemas.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3_11.svg', alt='')
         
-        .row.justify-content-center.align-items-center.mb-5          
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-2.mb-md-0
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Relieves y muescas:] las protuberancias y muescas se utilizan a menudo como elementos decorativos. Insertarlos en superficies lisas puede aportar un valor añadido a nuestros objetos, pero al mismo tiempo aumenta la carga de trabajo y puede complicarse.
+                p.mb-0.text-small #[b Relieves y muescas:] las protuberancias y muescas se utilizan a menudo como elementos decorativos. Insertarlos en superficies lisas puede aportar un valor añadido a nuestros objetos, pero al mismo tiempo aumenta la carga de trabajo y puede complicarse.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Asas:] cada vez existen más productos en el mercado con asas cada vez más ergonómicas y de formas más complejas.
+                p.mb-0.text-small #[b Asas:] cada vez existen más productos en el mercado con asas cada vez más ergonómicas y de formas más complejas.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Decisión de usar sólidos o superficies:] siempre que sea posible, es más fácil usar sólidos, la elección es muy sencilla.
+                p.mb-0.text-small #[b Decisión de usar sólidos o superficies:] siempre que sea posible, es más fácil usar sólidos, la elección es muy sencilla.
               li
                 i.fas.fa-solid.fa-stop
-                .col-12
-                  p #[b Trabajar superficies y sólidos al mismo tiempo:] es la situación ideal, ya que siempre habrá partes de un objeto que se pueden trabajar con una técnica u otra, por lo que hay que aprender a combinarlas para lograr un buen producto.
+                p.mb-0.text-small #[b Trabajar superficies y sólidos al mismo tiempo:] es la situación ideal, ya que siempre habrá partes de un objeto que se pueden trabajar con una técnica u otra, por lo que hay que aprender a combinarlas para lograr un buen producto.
 
           .col-md-6
             figure

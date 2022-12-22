@@ -10,7 +10,7 @@
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-left") Bienvenido a este módulo de aprendizaje sobre gemelos virtuales, diseñados para reflejar con precisión un objeto físico.  En el siguiente video se describen las generalidades de los gemelos digitales y las tecnologías de escaneo usadas para crear los procesos de implementación y gestión de acuerdo al diseño, aplicando criterios propios de desempeño en diferentes sectores como el académico, productivo e investigativo.
+        p(data-aos="fade-left") Bienvenido a este módulo de aprendizaje sobre gemelos virtuales, diseñado para reflejar con precisión un objeto físico.  En el siguiente video se describen las generalidades de los gemelos digitales y las tecnologías de escaneo usadas para crear los procesos de implementación y gestión de acuerdo al diseño, aplicando criterios propios de desempeño en diferentes sectores como el académico, productivo e investigativo.
       .col-lg-5
         figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/img0.svg', alt='')
