@@ -255,7 +255,7 @@ export default {
       referencia:
         'IAMVR. (n.d.). <em>10 herramientas para crear arte en realidad virtual.</em> I AM VR. Retrieved September 6, 2022, from',
       link:
-        'https://iamvr.com/10-herramientas-para-crear-arte-en-realidad-virtual/',
+        'https://i-amvr.com/10-herramientas-para-crear-arte-en-realidad-virtual/',
     },
     {
       referencia:
