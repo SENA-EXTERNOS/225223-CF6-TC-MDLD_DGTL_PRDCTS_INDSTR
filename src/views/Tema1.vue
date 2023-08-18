@@ -14,7 +14,7 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p(data-aos="fade-down").mb-0 Al hacer modelaciones de forma libre, las herramientas que nos ofrecen los #[i software] CAD se quedan cortas, ya que las geometrías en algunas áreas como escultura y arte, medicina, prótesis, y muchas otras, requieren ajustes y formas difíciles de lograr. Los dispositivos hápticos son instrumentos que permiten simular respuestas táctiles en un espacio 3D, permitiendo, por ejemplo, que se sientan los bordes y la geometría del objeto que se está diseñando. De esta manera, procesos como esculpir un objeto 3D se realizan de forma rápida y fácil. 
+            p(data-aos="fade-down").mb-0 Al hacer modelaciones de forma libre, las herramientas que nos ofrecen los #[i softwares] CAD se quedan cortas, ya que las geometrías en algunas áreas como escultura y arte, medicina, prótesis, y muchas otras, requieren ajustes y formas difíciles de lograr. Los dispositivos hápticos son instrumentos que permiten simular respuestas táctiles en un espacio 3D, permitiendo, por ejemplo, que se sientan los bordes y la geometría del objeto que se está diseñando. De esta manera, procesos como esculpir un objeto 3D se realizan de forma rápida y fácil. 
     
     .row.justify-content-center.align-items-center.md-5(data-aos="zoom-in-left")
       .col-xl-12
@@ -37,7 +37,7 @@
         
       .col-lg-5
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2
+          h5 Figura 1
           br
           span #[i La tecnología haptica, el futuro de la robótica]  
               
