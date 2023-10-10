@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img3_1.png', alt='foto de una mujer tomando alguna bebida y trabajando en el computador en un software de modelado libre')
       .col-lg-6
-        p(data-aos="fade-down") Las opciones de modelado de forma libre se usan, por lo general, para crear un diseño más llamativo y complejo desde uno paramétrico existente al que se le puede aplicar una de las cinco formas libre básicas: caja, esfera de malla cuadrada, cilindro, toroide y esfera.
+        p(data-aos="fade-down") Las opciones de modelado de forma libre se usan, por lo general, para crear un diseño más llamativo y complejo desde uno paramétrico existente al que se le puede aplicar una de las cinco formas libres básicas: caja, esfera de malla cuadrada, cilindro, toroide y esfera.
         p(data-aos="fade-down") El diseño de objetos 3D con alto grado de modelado es bastante dispendioso a comparación de las formas de diseño convencional, por eso, estas herramientas de modelado libre brindan un método alterno que se manipula directamente.  Cabe anotar que existen ayudas de #[em hardware] para este tipo de diseño, como los dispositivos hápticos.  
 
     .row.justify-content-center.align-items-center.mb-5
@@ -42,7 +42,7 @@
 
       .tarjeta.p-3(x="90%" y="98%" numero="5")(style="background-color:#D2E1F1;color:#12263F")
         .h5.mb-2 Esfera de malla cuadrada de forma libre
-        p Deformar el objeto 3d de base (esfera), halando los puntos de la malla que se quieren cambiar.
+        p Deformar el objeto 3D de base (esfera), halando los puntos de la malla que se quieren cambiar.
         p Información extraída de (Autodesk, 2020).
     
     separador
@@ -83,11 +83,11 @@
         
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Procedimiento general para crear superficies:
+            h4 Procedimiento general para crear superficies:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop
-                p.mb-0.text-small Crear sólidos con superficies periféricas.
+                p.mb-0.text-small Crear dibujos de contorno
               li
                 i.fas.fa-solid.fa-stop
                 p.mb-0.text-small Crear sólidos con superficies periféricas.
@@ -146,7 +146,7 @@
         
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Las superficies se pueden utilizar de diferentes maneras:
+            h4 Las superficies se pueden utilizar de diferentes maneras:
             ul.lista-ul(style="color:#FF9500")
               li
                 i.fas.fa-solid.fa-stop

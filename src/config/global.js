@@ -61,7 +61,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>Software</em> para modelo libre',
+        titulo: '<em>Software</em> para modelado libre',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -242,7 +242,7 @@ export default {
     },
     {
       referencia:
-        'Futuro Electronico. (n.d.). <em>Tecnología háptica | Qué es, cómo funciona, ejemplos y su futuro</em>. Futuro Eléctrico. Retrieved September 16, 2022, from ',
+        'Futuro Eléctrico. (n.d.). <em>Tecnología háptica | Qué es, cómo funciona, ejemplos y su futuro</em>. Futuro Eléctrico. Retrieved September 16, 2022, from ',
       link: 'https://futuroelectrico.com/tecnologia-haptica/ ',
     },
     {

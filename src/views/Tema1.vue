@@ -39,7 +39,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1
           br
-          span #[i La tecnología haptica, el futuro de la robótica]  
+          span #[i La tecnología háptica, el futuro de la robótica]  
               
         figure
           img(src='@/assets/curso/temas/tema1/img2.svg', alt='Foto de mujer con gafas de realidad virtual')
@@ -74,7 +74,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
             h3 Dispositivos hápticos 
-            p Los dispositivos hápticos producen cambios y estímulos en el sentido del tacto. Para crear este sentimiento, se pueden utilizar diferentes sistemas que incluyen pines mecánicos activados por solenoides, cristales piezoeléctricos, vibraciones generadas magnéticamente, interferencias electrostáticas, ondas ultrasónicas, presión de sistemas neumáticos, etc. En general, se puede distinguir entre retroalimentación háptica y retroalimentación de fuerza, según el dispositivo.
+            p Los dispositivos hápticos producen cambios y estímulos en el sentido del tacto. Para crear este sentido, se pueden utilizar diferentes sistemas que incluyen pines mecánicos activados por solenoides, cristales piezoeléctricos, vibraciones generadas magnéticamente, interferencias electrostáticas, ondas ultrasónicas, presión de sistemas neumáticos, etc. En general, se puede distinguir entre retroalimentación háptica y retroalimentación de fuerza, según el dispositivo.
         
           .col-md-6
             figure
